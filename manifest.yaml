@@ -1,5 +1,0 @@
-name: demo-env-template
-description: Basic environment template for Proton
-infrastructure:
- template_format: cloudformation
- template_file: infrastructure/cloudformation.yaml
