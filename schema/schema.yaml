@@ -1,0 +1,10 @@
+properties:
+ EnvName:
+ type: string
+ description: "Name of the environment"
+ VpcCidr:
+ type: string
+ description: "VPC CIDR block"
+ default: "10.0.0.0/16"
+required:
+ - EnvName
